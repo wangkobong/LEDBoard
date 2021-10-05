@@ -13,8 +13,9 @@ class TestViewController: UIViewController {
         super.viewDidLoad()
 
         
-        print("")
-        print("")
+        print("Hello world")
+        print("Bye")
+        print("Remote GIt Repository")
     }
     
 
@@ -29,3 +30,4 @@ class TestViewController: UIViewController {
     */
 
 }
+
