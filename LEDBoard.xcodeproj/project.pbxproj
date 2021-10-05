@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE374994270BD30C0048D002 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE374993270BD30C0048D002 /* TestViewController.swift */; };
 		FEDC9E1F2706F15D0017307A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC9E1E2706F15D0017307A /* AppDelegate.swift */; };
 		FEDC9E212706F15D0017307A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC9E202706F15D0017307A /* SceneDelegate.swift */; };
 		FEDC9E232706F15D0017307A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDC9E222706F15D0017307A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE374993270BD30C0048D002 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		FEDC9E1B2706F15D0017307A /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDC9E1E2706F15D0017307A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEDC9E202706F15D0017307A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				FEDC9E272706F15D0017307A /* Assets.xcassets */,
 				FEDC9E292706F15D0017307A /* LaunchScreen.storyboard */,
 				FEDC9E2C2706F15D0017307A /* Info.plist */,
+				FE374993270BD30C0048D002 /* TestViewController.swift */,
 			);
 			path = LEDBoard;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				FEDC9E232706F15D0017307A /* ViewController.swift in Sources */,
 				FEDC9E1F2706F15D0017307A /* AppDelegate.swift in Sources */,
+				FE374994270BD30C0048D002 /* TestViewController.swift in Sources */,
 				FEDC9E212706F15D0017307A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YWSA3TX7T7;
@@ -297,6 +302,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YWSA3TX7T7;
@@ -325,6 +332,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
